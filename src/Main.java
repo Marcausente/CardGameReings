@@ -28,7 +28,7 @@ public class Reigns {
                 case 3:
                     break;
                 default:
-                    System.out.println("ERROR, introduce un numero valido"); //Control de errores
+                    System.out.println("ERROR, introduce un numero que sea valido"); //Control de errores
                     break;
             }
         }while (menu1 != 3); //Bucle hasta que se selecciona la oppción de salir del menu
