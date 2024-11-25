@@ -2,7 +2,7 @@
 import java.util.Random;
 import java.util.Scanner;
 
-public class Reigns {
+public class Main {
     private static Scanner input = new Scanner(System.in);
     static int [] poderes = new int [4], añosArray = new int[20];
     static int años = 0, auxiliar = 0;
@@ -876,6 +876,8 @@ public class Reigns {
             System.out.println("Error, introduce un numero valido");
         }
     }
+    int num = 1;
+
 
     private static void costruiriglesia(String yellow, String reset, int decision) {
         System.out.println(yellow+"--Arzobispo del cardenal--"+reset);
